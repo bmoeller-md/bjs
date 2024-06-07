@@ -15,9 +15,14 @@ sonar {
     properties {
         property "sonar.projectKey", "bjs"
         property "sonar.projectname","bjs"
-        property "sonar.organization", "freenet-group"
-        property "sonar.host.url", "https://sonarqube.freenet-group.de"
-        property "sonar.token","squ_3f6a8ff9d67af5585180436b0787aef1bfba3392"
+        // property "sonar.organization", "freenet-group"
+        // property "sonar.host.url", "https://sonarqube.freenet-group.de"
+        // property "sonar.token","squ_3f6a8ff9d67af5585180436b0787aef1bfba3392"
+
+        property "sonar.projectKey", "bjs"
+        property "sonar.organization", "amoebe"
+        property "sonar.host.url", "https://sonarcloud.io"
+            
     }
 }
 
