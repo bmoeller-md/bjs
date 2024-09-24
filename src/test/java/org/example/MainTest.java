@@ -14,4 +14,11 @@ class MainTest {
         assertEquals("onetwo", result);
 
     }
+	
+	@Test
+	void testNichts() {
+		Main myMain = new Main();
+
+        myMain.nichts(2);
+	}	
 }
