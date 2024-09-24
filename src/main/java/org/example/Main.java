@@ -7,5 +7,10 @@ public class Main {
         if (i == 2) {
             System.out.println("I = 2");
         }
+		// System.out.println(concatenate("eins","Zwei"));
+    }
+	
+	public static String concatenate(String one, String two){
+        return one + two;
     }
 }
