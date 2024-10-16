@@ -26,7 +26,7 @@ sonar {
 		// SonarQube-Properties
 		property "sonar.organization", "freenet-group"
         property "sonar.host.url", "https://sonarqube-test.freenet-group.de"
-        # property "sonar.token","squ_3f6a8ff9d67af5585180436b0787aef1bfba3392"
+        // property "sonar.token","squ_3f6a8ff9d67af5585180436b0787aef1bfba3392"
 	property "sonar.token","sqa_3af5c2a690ae488489b60ea4cf283d7c148c92c0"	
 		// Jacoco-Bindung
         property 'sonar.core.codeCoveragePlugin', 'jacoco'
