@@ -37,7 +37,7 @@ jobs:
           # SONAR_TEST_SQ_TOKEN
           # SONAR_TOKEN: ${{ secrets.SONAR_TEST_SQ_TOKEN }}
           # SONAR_TEST_TOKEN
-          SONAR_TOKEN: ${{ secrtets.SONAR_TEST_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TEST_TOKEN }}
           
         run: |
           chmod 777 ./gradlew
