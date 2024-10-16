@@ -23,11 +23,14 @@ sonar {
         property "sonar.projectKey", "bjs"
         property "sonar.projectname","bjs"
         
-		// SonarQube-Properties
-		property "sonar.organization", "freenet-group"
-        property "sonar.host.url", "https://sonarqube-test.freenet-group.de"
+	// SonarQube-Properties
+	property "sonar.organization", "freenet-group"
+	// SONAR_TEST_SQ_URL
+	property "sonar.host.url", "https://sonarqube-test.sq.freenet-group.de"  
+	property "sonar.token","sqa_1d414b88787c2a26e73872fa7ce0555c72865831"    
+        //property "sonar.host.url", "https://sonarqube-test.freenet-group.de"
         // property "sonar.token","squ_3f6a8ff9d67af5585180436b0787aef1bfba3392"
-	property "sonar.token","sqa_3af5c2a690ae488489b60ea4cf283d7c148c92c0"	
+	// property "sonar.token","sqa_3af5c2a690ae488489b60ea4cf283d7c148c92c0"	
 		// Jacoco-Bindung
         property 'sonar.core.codeCoveragePlugin', 'jacoco'
         property 'sonar.coverage.jacoco.xmlReportPaths', "${project.buildDir}/reports/test/jacocoTestReport.xml"
