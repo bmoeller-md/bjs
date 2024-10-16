@@ -26,10 +26,10 @@ sonar {
 	// SonarQube-Properties
 	property "sonar.organization", "freenet-group"
 	// SONAR_TEST_SQ_URL
-	property "sonar.host.url", "https://sonarqube-test.sq.freenet-group.de"  
-	property "sonar.token","sqa_1d414b88787c2a26e73872fa7ce0555c72865831"    
+	// property "sonar.host.url", "https://sonarqube-test.sq.freenet-group.de"  
+	// property "sonar.token","sqa_1d414b88787c2a26e73872fa7ce0555c72865831"    
 	// SONARQUBE_TEST_URK
-	property "sonar.host.url", "https://sonarqubetest.freenet-group.de"  
+	property "sonar.host.url", "https://sonarqube-test.freenet-group.de"  
 	property "sonar.token","sqa_1d414b88787c2a26e73872fa7ce0555c72865831"     
         //property "sonar.host.url", "https://sonarqube-test.freenet-group.de"
         // property "sonar.token","squ_3f6a8ff9d67af5585180436b0787aef1bfba3392"
