@@ -5,10 +5,13 @@
 
 plugins {
     id 'java'
-    id "org.sonarqube" version "5.1.0.4882"
-	id 'application'  
-	id 'jacoco'
+    id "org.sonarqube" version "6.0.1.5171"
+    id 'application'  
+    id 'jacoco'
 }
+
+
+
 
 group = 'org.example'
 version = '0.0.2-SNAPSHOT'
@@ -24,16 +27,16 @@ sonar {
         property "sonar.projectname","bjs"
         
 	// SonarQube-Properties
-	property "sonar.organization", "freenet-group"
+	// property "sonar.organization", "freenet-group"
 	// SONAR_TEST_SQ_URL
 	// property "sonar.host.url", "https://sonar-test.sq.freenet-group.de"  
 	//property "sonar.token","sqa_1d414b88787c2a26e73872fa7ce0555c72865831"    
 	// SONARQUBE_TEST_URK
-	property "sonar.host.url", "https://sonarqube-test.freenet-group.de"  
+	// property "sonar.host.url", "https://sonarqube-test.freenet-group.de"  
 	// bm
 	//property "sonar.token","sqa_a4a5b92f9ac091328fd8964420ee42856560eebb"  
 	//bm2    
-	property "sonar.token","sqp_376e481e788312a8eaeec3cf65fdbb71c02c7aaa"    
+	// property "sonar.token","sqp_376e481e788312a8eaeec3cf65fdbb71c02c7aaa"    
         //property "sonar.host.url", "https://sonarqube-test.freenet-group.de"
         // property "sonar.token","squ_3f6a8ff9d67af5585180436b0787aef1bfba3392"
 	// property "sonar.token","sqa_3af5c2a690ae488489b60ea4cf283d7c148c92c0"	
